@@ -1,0 +1,1 @@
+/etc/apt/sources.list: For the line starting with "deb" and ending with "squeeze main", add " contrib non-free"
