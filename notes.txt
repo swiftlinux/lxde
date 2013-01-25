@@ -1,3 +1,16 @@
+ADD /etc/apt/apt.conf , contents are:
+// Recommends are as of now still abused in many packages
+APT::Install-Recommends "0";
+APT::Install-Suggests "0";
+
+TO INSTALL
+openbox
+pcmanfm
+lxpanel
+lxsession
+lxterminal
+
+
 Results of apt-get install -s lxde:
 Reading package lists...
 Building dependency tree...
