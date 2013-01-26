@@ -3,12 +3,11 @@ ADD /etc/apt/apt.conf , contents are:
 APT::Install-Recommends "0";
 APT::Install-Suggests "0";
 
+apt-get update/upgrade/dist-upgrade
+
 TO INSTALL
-openbox
-pcmanfm
-lxpanel
-lxsession
-lxterminal
+lxde
+gdm
 
 
 Results of apt-get install -s lxde:
